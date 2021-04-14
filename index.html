@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>BEM Lesson11_part1</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a href="#" class="logo header__logo">
+          <img src="img/Logo.png" alt="logo" />
+        </a>
+      </header>
+      <article class="product-card">
+        <div class="product-image">
+          <img src="img/Sneakers.png" alt="sneakers" />
+        </div>
+        <div class="product__colors">
+          <div class="black product__color"></div>
+          <div class="white product__color"></div>
+          <div class="red product__color"></div>
+          <div class="blue product__color"></div>
+        </div>
+
+        <div class="info product-info">
+          <h1 class="name product-info__name">Nike SB Stefan Janoski Max</h1>
+          <h3 class="product-info__title">Unisex Skateboarding Shoe</h3>
+          <div class="rating">
+            <ul class="rating__product">
+              <li class="rating__star"><img src="img/Star 1.png" alt="" /></li>
+              <li class="rating__star"><img src="img/Star 1.png" alt="" /></li>
+              <li class="rating__star"><img src="img/Star 1.png" alt="" /></li>
+              <li class="rating__star">
+                <img src="img/Star 5.png" alt="star gray" />
+              </li>
+              <li class="rating__star">
+                <img src="img/Star 5.png" alt="star gray" />
+              </li>
+            </ul>
+          </div>
+          <div class="dropping--out product-info__dropping--out">
+            <select class="size dropping--out__size" name="size" id="size">
+              <optiont value="38">38</optiont>
+              <optiont value="39">39</optiont>
+              <optiont value="40">40</optiont>
+            </select>
+            <select class="qty dropping--out__qly" name="qty" id="qty">
+              <optiont value="2-5">2-5</optiont>
+              <optiont value="5-10">5-10</optiont>
+              <optiont value="20-30">20-30</optiont>
+            </select>
+          </div>
+          <button class="button product-info__button">Add to cart</button>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>

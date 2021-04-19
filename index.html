@@ -21,14 +21,16 @@
         </a>
       </header>
       <article class="product-card">
-        <div class="product-image">
-          <img src="img/Sneakers.png" alt="sneakers" />
-        </div>
-        <div class="product__colors">
-          <div class="black product__color"></div>
-          <div class="white product__color"></div>
-          <div class="red product__color"></div>
-          <div class="blue product__color"></div>
+        <div class="product__slider">
+          <div class="product-image">
+            <img src="img/Sneakers.png" alt="" />
+            <div class="product__colors">
+              <div class="black product__color"></div>
+              <div class="white product__color"></div>
+              <div class="red product__color"></div>
+              <div class="blue product__color"></div>
+            </div>
+          </div>
         </div>
 
         <div class="info product-info">
@@ -49,14 +51,16 @@
           </div>
           <div class="dropping--out product-info__dropping--out">
             <select class="size dropping--out__size" name="size" id="size">
-              <optiont value="38">38</optiont>
-              <optiont value="39">39</optiont>
-              <optiont value="40">40</optiont>
+              <option selected disabled>Size</option>
+              <option value="38">38</option>
+              <option value="39">39</option>
+              <option value="40">40</option>
             </select>
             <select class="qty dropping--out__qly" name="qty" id="qty">
-              <optiont value="2-5">2-5</optiont>
-              <optiont value="5-10">5-10</optiont>
-              <optiont value="20-30">20-30</optiont>
+              <option selected disabled>Qty</option>
+              <option value="2-5">2-5</option>
+              <option value="5-10">5-10</option>
+              <option value="20-30">20-30</option>
             </select>
           </div>
           <button class="button product-info__button">Add to cart</button>

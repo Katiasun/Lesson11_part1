@@ -15,29 +15,27 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
-        <a href="#" class="logo header__logo">
+      <article class="product-card">
+        <a href="#" class="logo product-card__logo">
           <img src="img/Logo.png" alt="logo" />
         </a>
-      </header>
-      <article class="product-card">
-        <div class="product__slider">
-          <div class="product-image">
+        <div class="slider product-card__slider">
+          <div class="slider-image">
             <img src="img/Sneakers.png" alt="" />
-            <div class="product__colors">
-              <div class="black product__color"></div>
-              <div class="white product__color"></div>
-              <div class="red product__color"></div>
-              <div class="blue product__color"></div>
+            <div class="slider__colors">
+              <div class="slider__color slider__color--black"></div>
+              <div class="slider__color slider__color--white"></div>
+              <div class="slider__color slider__color--red"></div>
+              <div class="slider__color slider__color--blue"></div>
             </div>
           </div>
         </div>
 
-        <div class="info product-info">
-          <h1 class="name product-info__name">Nike SB Stefan Janoski Max</h1>
-          <h3 class="product-info__title">Unisex Skateboarding Shoe</h3>
-          <div class="rating">
-            <ul class="rating__product">
+        <div class="info product-card__info">
+          <h1 class="info__name">Nike SB Stefan Janoski Max</h1>
+          <h3 class="info__title">Unisex Skateboarding Shoe</h3>
+          <div class="rating info__rating">
+            <ul class="rating__list">
               <li class="rating__star"><img src="img/Star 1.png" alt="" /></li>
               <li class="rating__star"><img src="img/Star 1.png" alt="" /></li>
               <li class="rating__star"><img src="img/Star 1.png" alt="" /></li>
@@ -49,21 +47,21 @@
               </li>
             </ul>
           </div>
-          <div class="dropping--out product-info__dropping--out">
-            <select class="size dropping--out__size" name="size" id="size">
+          <div class="info__dropdowns">
+            <select class="info__dropdown dropdown" name="size" id="size">
               <option selected disabled>Size</option>
               <option value="38">38</option>
               <option value="39">39</option>
               <option value="40">40</option>
             </select>
-            <select class="qty dropping--out__qly" name="qty" id="qty">
+            <select class="info__dropdown dropdown" name="qty" id="qty">
               <option selected disabled>Qty</option>
               <option value="2-5">2-5</option>
               <option value="5-10">5-10</option>
               <option value="20-30">20-30</option>
             </select>
           </div>
-          <button class="button product-info__button">Add to cart</button>
+          <button class="button info__button">Add to cart</button>
         </div>
       </article>
     </div>
